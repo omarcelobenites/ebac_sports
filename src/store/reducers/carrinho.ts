@@ -20,7 +20,7 @@ const carrinhoSlice = createSlice({
       if (state.itens.find((produto) => p.id === produto.id)) {
         alert('item já adicionado ao carrinho')
       } else {
-        state.itens.push(p) // Agora 'p' está definido corretamente
+        state.itens.push(p)
       }
     }
   }
